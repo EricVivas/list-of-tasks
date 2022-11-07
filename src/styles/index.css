@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-350-px {
+  width: 350px;
+}
+
+.mh-800-px {
+  max-height: 800px;
+}
+
+.mh-400-px {
+  max-height: 400px;
+}
+
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+.w-90-percent {
+  width: 90%;
+}
+
+.w-45-percent {
+  width: 45%;
+}
+
+.edit-delete-buttons {
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+@media (max-width: 750px) {
+  .edit-delete-buttons {
+    flex-direction: column;
+  }
+
+  .edit-delete-buttons button {
+    margin: 0 auto;
+  }
+}
